@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root{
+	/* primary-color */
+	--pale-blue: hsl(225, 100%, 94%);
+	--bright-blue: hsl(245, 75%, 52%);
+
+	/* Neutral Color*/
+	--vary-pale-blue: hsl(225, 100%, 98%);
+	--desatureated-blue: hsl(224, 23%, 55%);
+	--dark-blue: hsl(223, 47%, 23%);
+
+	--card-color: hsl(228, 56%, 98%);
+}	
+
+html{
+	font-family:"Red hat Display", sans-serif;
+	font-size: 12px;
+	/* height: 100%; */
+		/* background-color: var(--pale-blue); */
+}
+
+button{
+	font-family: inherit;
+	display: block;
+}
+
+.attribution { 
+	font-size: 11px; 
+	text-align: center;
+	 
+}
+
+.attribution a { 
+	color: hsl(228, 45%, 44%); 
+}

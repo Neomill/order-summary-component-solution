@@ -1,0 +1,126 @@
+.card{
+    /* width: 33%; */
+    width: 400px;
+    /* height: 700px; */
+    background-color: white;
+    border-radius: 19px;
+    overflow: hidden;
+    margin:auto auto auto auto;
+	color: var(--desatureated-blue);
+}
+
+.card-content{
+    width: 100%;
+    padding: 10% 0 10% 0;
+}
+
+.music-svg{
+    width: 100%;
+}
+
+h1,p{
+    text-align:center
+}
+
+.card-content > h1{
+    font-size: 1.6667rem;
+    font-weight: 900;
+    color: var(--dark-blue);
+    margin-bottom: 16px;
+}
+
+.card-content > p {
+    margin-bottom: 14px;
+    padding-left: 20%;
+    padding-right: 20%;
+    line-height: 1.5rem;
+    /* margin: 28px 0 28px 0; */
+}
+
+h2{
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.plan-subscription-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+    width: 79.12%;
+    height: 80px;
+    background-color: var(--vary-pale-blue);
+    margin: 0px auto 26px auto;
+}
+
+/* vertical center annual text */
+.annual-plan-container{
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.annual-plan-container h2{
+    color: var(--dark-blue);
+    font-weight: 900;
+}
+
+.left-side > *{
+    vertical-align: middle;
+}
+
+.icon-music{
+    width: 50px;
+    height: 50px;
+}
+
+.change-annual-plan{
+    font-size: inherit;
+    font-weight: 700;
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+    color: var(--bright-blue);
+    transition: opacity .1s ease-out;  
+}
+
+.change-annual-plan:hover{
+    cursor: pointer;
+    text-decoration: none;
+    opacity:70%;
+}
+
+
+/* proceed to payment */
+.proceed-to-payment{
+    background-color: var(--bright-blue);
+    border: none;
+    border-radius: 12px;
+    width: 79.12%;
+    height: 50px;
+    margin: 0px auto 15px auto;
+    color: white;
+    transition: opacity .1s ease-out;
+}
+
+.proceed-to-payment:hover{
+    cursor: pointer;
+    opacity:70%;
+}
+
+.proceed-to-payment strong{
+    font-weight: 700;
+}
+
+.cancel-order{
+    border: none;
+    background-color: transparent;
+    margin: 0px auto 0px auto;
+    font-weight: 700;
+    color: inherit;
+    transition: opacity .1s ease-out;
+}
+
+.cancel-order:hover{
+    cursor: pointer;
+    color: var(--dark-blue);
+}
