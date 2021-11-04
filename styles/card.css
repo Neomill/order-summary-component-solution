@@ -1,7 +1,6 @@
 .card{
     /* width: 33%; */
     width: 400px;
-    /* height: 700px; */
     background-color: white;
     border-radius: 19px;
     overflow: hidden;
@@ -34,7 +33,6 @@ h1,p{
     padding-left: 20%;
     padding-right: 20%;
     line-height: 1.5rem;
-    /* margin: 28px 0 28px 0; */
 }
 
 h2{
