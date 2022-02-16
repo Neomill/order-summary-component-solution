@@ -1,80 +1,50 @@
-@media (max-width:425px){
-    .card{
-        width: 375px;
-    }
-
-    .card-content > h1{
-        margin-bottom: 26px;
-    }
-
-    .card-content > p {
-        margin-bottom: 24px;
-    }
-
-    .plan-subscription-container{
-        margin-bottom: 20px;
-    }
-
-    .proceed-to-payment{
-        margin-bottom: 26px;
-    }
-
-    .main-content{
-        padding: 13vh 0 13vh 0;
-   }
-}
-
-@media (max-width:375px){
+@media (max-width:23.4375rem){
     .main-content{
         background: url(../images/pattern-background-mobile.svg) no-repeat;
-        background-size: contain;
         background-color: var(--pale-blue);
     }
 
     .card{
-        width: 70%;
+        min-width: 20.4375rem;
     }
 
-    .main-content{
-        padding: 8vh 0 8vh 0;
+    .card-content{
+        padding: 2.375em 0;
     }
 
-   .card-content{
-        padding: 6% 0 6% 0;
+    .card-content > h1{
+        font-size: 1.375rem;
+        margin-bottom: 1.5em;
     }
 
-   .card-content > h1{
-        margin-bottom: 16px;
-        font-size: 1.5rem;
+    .card-content > .text-content{
+        padding: 0 2.5em;
+        margin-bottom: 1.5em;
     }
 
-    .card-content > p {
-        margin-bottom: 14px;
-    }
-
+    
     .plan-subscription-container{
         width: 85%;
         height: 60px;
-        margin-bottom: 20px;
+        margin-bottom: 1.25em;
     }
 
     .annual-plan-container{
-        margin-left: 5px;
+        margin-left: 0.313em;
     }
     
     .icon-music{
-        width: 40px;
-        height: 40px;
+        width: 50px;
+        height: 50px;
     }
 
     .proceed-to-payment{
         width: 85%;
         height: 40px;
-        margin-bottom: 10px;
-        font-size: 1rem;    
+        margin-bottom: 0.625rem;  
     }
 
-    .cancel-order{
+    div button{
         font-size: 1rem;
     }
 
