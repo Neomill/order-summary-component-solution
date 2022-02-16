@@ -1,7 +1,7 @@
 .main-content{
     background: url(../images/pattern-background-desktop.svg) no-repeat;
+    min-height: 100vh;
     background-color: var(--pale-blue);
-    padding: 15vh 0 15vh 0;
     display: flex;
     justify-content: center;
     align-items: center;
