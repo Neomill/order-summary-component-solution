@@ -1,5 +1,6 @@
 .main-content{
     background: url(../images/pattern-background-desktop.svg) no-repeat;
+    background-size: 100% 50%;
     min-height: 100vh;
     background-color: var(--pale-blue);
     display: flex;
