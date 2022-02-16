@@ -1,6 +1,7 @@
 .card{
     margin: 10vh 0;
-    width: 400px;
+    width: 90%;
+    max-width: 28.125rem;
     background-color: white;
     border-radius: 19px;
     overflow: hidden;
@@ -16,26 +17,26 @@
     width: 100%;
 }
 
-h1,p{
+h1, .text-content{
     text-align:center
 }
 
 .card-content > h1{
-    font-size: 1.6667rem;
+    font-size: 1.75rem;
     font-weight: 900;
     color: var(--dark-blue);
-    margin-bottom: 16px;
+    margin-bottom: 1em;
 }
 
-.card-content > p {
-    margin-bottom: 14px;
-    padding-left: 20%;
-    padding-right: 20%;
+.card-content > .text-content {
+    font-size: 1.125rem;
+    margin-bottom: 1.111em;
+    padding: 0 4.375em;
     line-height: 1.5rem;
 }
 
-h2{
-    font-size: 100%;
+.plan-subscription-container .annual-plan{
+    font-size: 1.125rem;
     font-weight: bold;
 }
 
@@ -47,12 +48,12 @@ h2{
     width: 79.12%;
     height: 80px;
     background-color: var(--vary-pale-blue);
-    margin: 0px auto 26px auto;
+    margin: 0px auto 1.625em auto;
 }
 
 /* vertical center annual text */
 .annual-plan-container{
-    margin-left: 20px;
+    margin-left: 1.25em;
     display: inline-block;
 }
 
@@ -94,7 +95,7 @@ h2{
     border-radius: 12px;
     width: 79.12%;
     height: 50px;
-    margin: 0px auto 15px auto;
+    margin: 0px auto 0.938em auto;
     color: white;
     transition: opacity .1s ease-out;
 }
@@ -111,7 +112,7 @@ h2{
 .cancel-order{
     border: none;
     background-color: transparent;
-    margin: 0px auto 0px auto;
+    margin: 0 auto;
     font-weight: 700;
     color: inherit;
     transition: opacity .1s ease-out;
