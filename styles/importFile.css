@@ -1,4 +1,10 @@
+/* createing a css file that contains all css rules for every component
+will lessn the html <link> tag required. */
+
+/* in this example importFile.css links to all the css. Only the importFile.css
+should be added on the link tag on html. */
+
+
 @import url("card.css");
 @import url("style.css");
 @import url("background.css");
-@import url("mobile-version.css")

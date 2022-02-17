@@ -1,5 +1,10 @@
 .card{
+    
+    /* since the card component is display flex.spacing might collapse if the 
+    viewport's height is small. Setting margin top and bottom will maintain 
+    set space in top and bottom of the card even in smaller viewport width*/
     margin: 10vh 0;
+
     width: 90%;
     max-width: 28.125rem;
     background-color: white;

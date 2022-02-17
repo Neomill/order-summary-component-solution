@@ -1,8 +1,18 @@
 .main-content{
-    background: url(../images/pattern-background-desktop.svg) no-repeat;
+    background: var(--pale-blue) url(../images/pattern-background-desktop.svg) no-repeat;
+    
+    /* explicitly set the height of the bg-image 50% of ther entire page.
+    [width]% [height]% */
     background-size: 100% 50%;
+
+    /* this property makes the height of the html equal to the height of the
+    entire page without defining the html's and body's height. 
+    Useful for responsive card. this line of code makes landscape
+    viewport easy implemented. no need for media query portrait*/
     min-height: 100vh;
-    background-color: var(--pale-blue);
+
+    /* centering card coponent.
+     flexbox makes centering element easy.*/
     display: flex;
     justify-content: center;
     align-items: center;
